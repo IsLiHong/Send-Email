@@ -8,6 +8,26 @@ public class Main {
     private String subject;
     private String content;
     private String contentType;
+
+	  private String bodyContent;
+    private List<String> attachments;
+
+    public String getBodyContent() {
+        return bodyContent;
+    }
+
+    public void setBodyContent(String bodyContent) {
+        this.bodyContent = bodyContent;
+    }
+
+    public List<String> getAttachments() {
+        return attachments;
+    }
+
+    public void setAttachments(List<String> attachments) {
+        this.attachments = attachments;
+    }
+
     private String to;
     private String cc;
     private String bcc;
